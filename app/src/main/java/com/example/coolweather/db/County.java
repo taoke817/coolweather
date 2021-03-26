@@ -1,5 +1,7 @@
 package com.example.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by HUWEI on 2021/03/25.
  */
