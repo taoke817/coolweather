@@ -58,7 +58,7 @@ public class ChooseAreaFragment extends Fragment {
     private City selectedCity;
     private int currentLevel;
 
-    @override
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.choose_area,container,false);
@@ -70,7 +70,7 @@ public class ChooseAreaFragment extends Fragment {
         return view;
     }
 
-    @override
+    @Override
     public void onActivityCreated(Bundle savedInstanceState)
     {
         super.onActivityCreated(savedInstanceState);
@@ -139,7 +139,7 @@ public class ChooseAreaFragment extends Fragment {
         }
         else{
             String address = "http://guolin.tech/api/china";
-            queryFromServer(addess,"province");
+            queryFromServer(address,"province");
         }
     }
 
